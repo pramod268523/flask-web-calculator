@@ -18,7 +18,7 @@ def login():
         user = request.form["nm"]
         return redirect(url_for('success', name=user))
     else:
-        # return 'test2'
+        # return 'test2'11
         user = 'test'
         return redirect(url_for('success', name=user))
 
